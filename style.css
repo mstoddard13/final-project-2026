@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#player {
+  width: 90%;
+  height: 250px;
+  margin: 10px auto;
+  border: none;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  padding: 15px;
+  width: 80%;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
