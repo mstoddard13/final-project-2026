@@ -1,9 +1,5 @@
-function playSong() {
-  var audio = new Audio('songs/birthday.mp3');
+function playSong(song) {
+  let link = "songs/" + song + ".mp3"
+  var audio = new Audio(link);
   audio.play();
 }
-
-//playSong();
-
-var audio = document.getElementById("myAudio")
-audio.play();
