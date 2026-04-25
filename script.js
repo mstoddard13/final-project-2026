@@ -1,5 +1,14 @@
+var audio = document.getElementById('myAudio');
+
 function playSong(song) {
   let link = "songs/" + song + ".mp3"
-  var audio = new Audio(link);
+  audio.src = link;
   audio.play();
+}
+
+function playAudio() {
+  audio.play();
+}
+function pauseAudio() {
+  audio.pause();
 }
